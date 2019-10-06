@@ -34,7 +34,7 @@ class Post extends Model
         return [
             'title'          => 'required|min:3|max:100',
             'image'         => 'image|max:2048',
-            'description'   => 'required|min:3|max:100',
+            'description'   => 'required|min:3|max:1000',
             'category_id' => 'required'
         ];
     }
